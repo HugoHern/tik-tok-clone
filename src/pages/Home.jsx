@@ -1,9 +1,17 @@
 import '../App.css';
+import FollowersColumn from '../components/FollowersColumn';
 
 const Home = () => {
   return (
-    <div>
+    <div className='container'>
+     
+        <FollowersColumn/>
+        <div className="feed">
         <h1>Home</h1>
+        </div>
+        <div className="suggested-box">
+
+        </div>
     </div>
   )
 }
